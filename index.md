@@ -1,4 +1,24 @@
-## Welcome to GitHub Pages
+## Databricks workspace using Microsoft CAF
+
+# Setup
+Detailed Reference Guide : https://github.com/Azure/caf-terraform-landingzones/blob/master/documentation/getting_started/getting_started.md
+1. Check if you have vscode requirements ready i.e  Visual Studio Code Extension - Remote Development
+    Reference:https://github.com/aztfmod/rover#pre-requisites
+2. Clone CAF databricks starter template [CAF_DATABRICKS_STARTER](https://github.com/lordlinus/caf-databricks-with-kv)
+  Optional: git clone --branch 2101.0.0 https://github.com/Azure/caf-terraform-landingzones.git /tf/caf/public
+3. Open in vs-code container
+4. Run `rover login` inside the bash shell
+5. Check if you have owner privileges on your account if you see the below error  `Error on or near line 182: the current account must have Owner privilege on the subscription to deploy launchpad.; exiting with status 2. Ensure you have owner persmissions`. 
+
+# Deploy CAF
+```markdown
+
+```
+
+Reference
+1.https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/
+2.
+	7. 
 
 You can use the [editor on GitHub](https://github.com/lordlinus/setup-caf-databricks/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
