@@ -8,9 +8,9 @@ Detailed Reference Guide : [Getting started](https://github.com/Azure/caf-terraf
    + (Optional) checkout a specific landing zone branch  
     	   1. git clone --branch 2101.0.0 https://github.com/Azure/caf-terraform-landingzones.git /tf/caf/public.
    + (Optional) for my demo i have commented out the below files for faster deployments:   
-    	   1. bastion host from launchpad /tf/caf/configuration/sandpit/level0/launchpad/compute.tfvars.  
-    	   2. custom iam roles at /tf/caf/configuration/sandpit/level0/launchpad/iam_custom_roles.tfvars.  
-    	   3. custom_role_mapping role mapping section of /tf/caf/configuration/sandpit/level0/launchpad/iam_role_mapping.tfvars  
+    	   1. bastion host from launchpad /tf/caf/configuration/sandpit/level0/launchpad/compute.tfvars.    
+    	   2. custom iam roles at /tf/caf/configuration/sandpit/level0/launchpad/iam_custom_roles.tfvars.    
+    	   3. custom_role_mapping role mapping section of /tf/caf/configuration/sandpit/level0/launchpad/iam_role_mapping.tfvars    
 3. Open in vs-code container ( watch Onboarding video[https://www.youtube.com/watch?v=M5BXm30IpdY] for detailed steps )
 4. Check if you have owner privileges on your account if you see the below error.   
 	`Error on or near line 182: the current account must have Owner privilege on the subscription to deploy launchpad.; exiting with status 2. Ensure you have owner persmissions`. 
