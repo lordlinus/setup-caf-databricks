@@ -5,7 +5,7 @@ Detailed Reference Guide : [Getting started](https://github.com/Azure/caf-terraf
 1. Check if you have vscode requirements ready i.e  Visual Studio Code Extension - Remote Development
     Reference:https://github.com/aztfmod/rover#pre-requisites
 2. Clone CAF starter template [caf-terraform-landingzones-starter](https://github.com/Azure/caf-terraform-landingzones-starter).   
-   + Optional: 
+   + Optional:  
     	+ checkout a specific landing zone branch  
     	   1. git clone --branch 2101.0.0 https://github.com/Azure/caf-terraform-landingzones.git /tf/caf/public.
     	+ for my demo i have commented out the below files for faster deployments:   
